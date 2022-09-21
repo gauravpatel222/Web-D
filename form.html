@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #class{
+            display:grid;
+            padding-bottom: 24px;
+            border:5px solid black;
+            box-shadow:4px 2px 3px 6px green;
+        }
+        .ol{
+            border:5px solid orange;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            
+            background-color:black;
+            
+            height: 100px;
+           text-decoration:none;
+            
+            
+        }
+        .li{
+            padding:10px;
+            list-style: none;
+            margin-left:30px;
+            transition-duration: 3s;
+
+        }
+        .li:hover{
+      transform: scale(2);
+      color:orange;
+      width:50px;
+      height:50px;
+      border:2px solid black;
+      border-radius: 5px;
+     box-shadow: 2px 3px 3px 1px greenyellow;
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="class">
+
+    <form action="" id="class">
+        <label for="fname">Your name</label>
+   <input type="text" id="name" placeholder="username">
+   <label for="" class=""></label>
+   <input type="last" placeholder="password">
+   <p>choosse your favourite language...</p>
+   <ol class="ol">
+  <li class="li"> <input type="radio" name="choice" >html</li>
+  <li class="li"><input type="radio" name="choice" class="li">css</li>
+  <li class="li"><input type="radio" name="choice" class="li"> javascript </li>
+
+   </ol>
+</form></div>
+    
+</body>
+</html>

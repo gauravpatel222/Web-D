@@ -1,0 +1,253 @@
+<html>
+  <head>
+   <style>
+     body {
+  background-color:whitesmoke;
+}
+#header{
+  display:flex;
+  padding:34;
+  background-color:#eee;
+  width:900;
+  height:10;
+  padding-top:9;
+  position:static;
+
+
+}
+@media (max-width: 2000px) {
+  header {
+    flex-wrap: wrap;
+  }
+img{
+  padding-top:9;
+  background-image:radial-gradient(red,yellow,blue);
+}
+
+#ul{
+  padding-top:0;
+  display:flex;
+  list-style:none;
+  padding-left:100;
+}
+li{
+  padding-left:100;
+  padding-top:0;
+}
+a{
+  color:black;
+  text-decoration:none;
+  padding-top:0;
+
+}
+a:hover{
+  color:orange;
+  text-shadow: 3px 4px 10px blue;
+}
+#section1{
+  padding-top:23;
+  padding-left:80;
+  width:900;
+}
+#form{
+  padding-left:90;
+
+}
+#video{
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-left:100;
+  padding-top:56;
+
+}
+
+#submit{
+  background-color:orange;
+  margin-left:50;
+  width:90;
+  border:none;
+}
+#submit:hover{
+  background-color:skyblue;
+}
+#features{
+  width:900;
+  padding-left:34
+
+}
+#features p{
+  background-color:#ddd;
+}
+
+#pricing{
+  display:flex;
+  padding-top:56;
+}
+#pricing div{
+  padding-right:70;
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  width:4000
+}
+#tenor{
+  width:100%;
+  align-content:center;
+}
+.submit1{
+  background-color:orange;
+  margin-left:50;
+  width:90;
+  border:none;
+}
+.submit1:hover{
+  background-color:darkorange;
+}
+h4{
+  padding-left:20;
+   background-color: #ddd;
+  color: black;
+  padding: 20px 0;
+  wisth:4000;
+  
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+}
+
+#pricing ul{
+  list-style:none;
+  padding-left:;
+}
+#pricing li{
+  padding-bottom:20;
+  padding-left:0px;
+  
+}
+.form1{
+  align-items:center;
+  
+}
+
+
+
+   </style>
+
+  </head>
+  <body>
+      <header id="header">
+        
+          <img
+            id="header-img"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+    height="34"
+          />
+        
+
+        <nav id="nav-bar">
+          <ul id="ul">
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="section1">
+  <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          /><br></br>
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      
+        <section id="features">
+        <div class="icon"  >
+            <i class="fa fa-3x fa-fire"></i>
+            <div class="desc">
+              <h2>Premium Materials</h2>
+              <p>
+                Our trombones use the shiniest brass which is sourced locally.
+                This will increase the longevity of your purchase.
+              </p>
+            </div>
+         <i class="fa fa-3x fa-truck"></i></div>
+      
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure you recieve your trombone as soon as we have
+                finished making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+    
+          
+              <h2>Quality Assurance</h2>
+              <p>
+                For every purchase you make, we will ensure there are no damages
+                or faults and we will check and test the pitch of your
+                instrument.
+              </p>
+          
+          
+        </section>
+
+<section id="how-it-works">
+  <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+<section id="pricing">
+  <div id="tenor">
+    
+    <h4>TENOR TROMBANE</h4>
+    <ul>
+      <li>$600</h5></li>
+      <li>Lorem ipsum.</li>
+<li>Lorem ipsum.</li>
+
+<li>Lorem ipsum dolor.</li>
+<li>Lorem ipsum.</li>
+</ol>
+<form class="form1"><input type="submit" class="submit1" value="SELECT"></form>
+</div>
+<div id="bass">
+    <h4>BASS TROMBANE</h4>
+    <ul>
+      <li>$900</li>
+      <li>Lorem ipsum.</li>
+<li>Lorem bass.</li>
+
+<li>Lorem  dolor.</li>
+<li>Lorem ipsum.</li>
+</ol>
+<form class="form1"><input type="submit" value="SELECT" class="submit1"></form>
+</div><div id="valve">
+    <h4>BASS TROMBANE</h4>
+    <ul>
+      <li>$1200</li>
+      <li>Lorem ipsum.</li>
+<li>Lorem valve.</li>
+
+<li>Lorem  dolor.</li>
+<li>Lorem ipsum.</li>
+</ul>
+<form class="form1"><input type="submit" class="submit1" value="SELECT"></form>
+</div>

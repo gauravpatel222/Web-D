@@ -1,0 +1,168 @@
+<html>
+  <head><style>
+    body{
+      line-height:1.3;
+    }
+    nav{
+      border-right:solid grey;
+      padding:2;
+      
+    }
+    code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+    #main-doc header{
+      padding:3;
+      margin:0;
+      
+    }
+    #navbar h1{
+      text-align:center;
+    }
+   
+  #navbar ul {
+    background-color:skyblue;
+  height: 18%;
+  padding: px;
+  
+  overflow-y: auto;
+  overflow-x: hidden;
+  float:clear;
+}
+  #navbar  li{
+      border-top:1px solid;
+      line-height:20px;
+      list-style:none;     
+    }
+    #HTML_Forms ol{
+      border:solid;
+      background-color:grey;
+    }
+    
+    </style>
+    </head>
+    <body>
+      <nav id="navbar">
+        <header><h1>Content</h1></header>
+        <ul>
+          <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+           <li><a href="#HTML_Forms" class="nav-link">HTML Forms</a></li> 
+          <li><a href="#HTML_Graphics" class="nav-link">HTML Graphics</a></li>
+           <li><a href="#HTML_media" class="nav-link">HTML media</a></li>
+       
+        <li><a href="#references" class="nav-link">references</a></li>
+          </ul>
+          </nav>
+ <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages<br></br></p></p>
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content</p>
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+<p>here is the example of table</p>
+<code>
+  <table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+</code>
+<p>Example of image</p>
+<code><img src="img_girl.jpg" alt="Girl in a jacket">
+</code>
+</p></section>
+<section class="main-section" id="HTML_Forms">
+  <header>HTML Forms</header>
+  <p>The element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+
+All the different form elements are covered in this chapter: HTML Form Elements.</p><p>here is the example</p>
+<code><form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</code>
+<h3>Elements used in form element</h3>
+<ol>
+  <li>input</li>
+  <li>radio</li>
+  <li>checkbox</li>
+  <li>submit</li>
+  <li>email</li>
+  </ol>
+  </section>
+<section class="main-section" id="HTML_Graphics">
+        <header><h3>HTML Graphics</header>
+
+<p>The HTML  element is used to draw graphics on a web page.
+
+The graphic to the left is created with . It shows four elements: a red rectangle, a gradient rectangle, a multicolor rectangle, and a multicolor text.
+</p><p>
+What is HTML Canvas?
+The HTML element is used to draw graphics, on the fly, via JavaScript.
+
+The element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+</p><p>
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</p>
+
+<code>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+
+</code>
+</section>
+<section class="main-section" id="HTML_media">
+  <header><h3>HTML media</h3></header>
+  <p>What is Multimedia?
+Multimedia comes in many different formats. It can be almost anything you can hear or see, like images, music, sound, videos, records, films, animations, and more.</p>
+<p>
+Web pages often contain multimedia elements of different types and formats.
+</p><p>
+Browser Support
+The first web browsers had support for text only, limited to a single font in a single color.
+
+Later came browsers with support for colors, fonts, images, and multimedia!
+        </p>
+        <code>  
+          <video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video></code></section>
+<section class="main-section" id="references">
+  <header><h3>references</h3></header>
+  <a href="https://www.w3schools.com/" target="_blank">w3school</a>
+   <a href="https://www.hackerrank.com/" target="_blank">Hackerrank</a>
+   </section>
+

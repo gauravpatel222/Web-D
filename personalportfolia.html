@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <style>
+      body{
+        background-color:lightblue;
+        width:400;
+      }
+      .nav{
+        background-color: black;
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+      }
+      #navbar{
+        background-color: aqua;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        padding: 12px 15px;
+      }
+
+      #navbar ul{
+        display:flex;
+        list-style:none;
+        padding: 30px 30px;
+      }
+      #navbar a{
+        color:black;
+        text-decoration:none;
+      }
+      .container{
+        display:block;
+        margin: auto;
+        width: 100px;
+
+      }
+      a:hover{
+        color:orange;
+      }
+      #welcome-section{
+        padding-top:45;
+        background-color:white;
+      }
+      #div{
+        text-align:center;
+        padding-top:34;
+        height:167;
+        width:500;
+        background-color:whitesmoke;
+          
+}
+
+
+      
+   #projects h1{
+     padding-top:11;
+     padding-bottom:11;
+     text-align:center;
+   }
+      .myprojects{
+        background-color:#ddd;
+         background: slategray;
+        display:flex;
+        height:260;
+        padding-top:23;
+        padding-left:12;
+        width:500;  
+      }
+      .myprojects a{
+        text-decoration:none;
+        padding: left 1px;;
+        text-align:center;
+        padding-top:0;
+        color:darkblue;
+      }
+      .myprojects img{
+        padding-right:28
+      }
+      #contact  {
+        text-align:center;
+        background-color:violet;
+        margin-top:50;
+        background: mistyrose;
+      }
+      #contact a{
+        text-decoration:none;
+        padding-right:12;
+         background: var(--main-gray);
+      }
+      #contact #div1{
+    
+    padding-top:10;
+      }
+      #contact #links{
+       padding-bottom:25;
+      }
+
+      </style>
+      </head>
+      <body>
+        <nav class="nav" id="navbar">
+          <ul class="container">
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+            </nav>
+      <section id="welcome-section"><div id="div">
+        <h1>Hey , I am a Gaurav Gurjar</h1>
+        <h3>A Web Developer</h3> </div></section>
+
+<section id="projects">
+ <i> <h1 class="project-tile"><u>These are my projects</h1></u></i>
+<div class="myprojects">
+  <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" id="profile-link" target="_blank";> <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" height="200" width="200"
+            alt="project"
+          /><p>Tribute page</p></a>
+   <a
+          href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" height="200" width="200"
+            alt="project"
+          /> Random Qoute Machine</a></div></section>
+          <section id="contact">
+  <div id="div1">
+    <h2>Let's Work Together</h2>
+    <p>How do you take your coffee</p>
+    </div>
+    <div id="links">
+      
+        <a
+          href="https://www.facebook.com/gaurav.gujjar.79462815"
+          target="_blank"
+         
+         > Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/gauravpatel222"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+       
+        
+        <a href="https://mail.google.com/mail/u/0/#inbox" class="btn contact-details"> Send a mail</a
+        >
+
+      </div>
+    </section>
